@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio-video.html">Home</a></li>
+                <li><a href="non-semanti.html">Non-semantic</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="table.html">Tabel</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+        <h2>Fill up the form</h2>
+    </header>
+    <form action="">
+        <label for="name">Your Name<input type="text" id="name" placeholder="name"></label>
+        <label for="email">Your Name<input type="email" id="email" placeholder="email"></label>
+        <label for="number">Your Number<input type="number" id="number" placeholder="your-number"></label>
+        <fieldset>
+            <legend>Pick one pitha</legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">
+                Chitoy
+            </label>
+            <label for="vafa">
+                <input type="radio" name="pitha" id="vafa">
+                Vafa
+            </label>
+            <label for="coco">
+                <input type="radio" name="pitha" id="coco">
+                Coco
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select one or more Vorthas</legend>
+            <label for="alu-vorhta">
+                <input type="checkbox" name="vortha" id="alu-vortha">
+                Alu-vortha
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="vortha" id="shutki">
+               Shutki
+            </label>
+            <label for="Sorisha">
+                <input type="checkbox" name="vortha" id="Sorisha">
+               Sorisha
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instructions</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" name="" id="">
+        <input type="submit" name="" id="">
+</body>
+</html>
